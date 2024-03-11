@@ -11,10 +11,21 @@ function Screen() {
   );
 }
 
+function Alex() {
+  return(
+    <View style={styles.view}>
+      <Text style={{color: 'white', fontSize: 20}}>
+        Yooooo
+      </Text>
+    </View>
+  );
+}
+
 export default function App() {
   return (
     <View style={styles.container}>
       <Screen/>
+      <Alex/>
       <StatusBar style="auto" />
     </View>
   );
